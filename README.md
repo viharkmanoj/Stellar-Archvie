@@ -6,6 +6,7 @@
   * [Package Installation](#step-1-installation)
   * [Extraction](#step-2-extraction)
   * [Database Setup](#step-3-Database-setup)
+  * [Pyinstaller](#step-4-pyinstaller)
 
 # About
 Stellar Archive is a comprehensive database driven application made using python encompassing information about various celestial entities. This application was developed during my senior year as a school project. The repository houses all the collected data, the codes utilized, and includes a guidebook detailing our approach towards the final product. 
@@ -16,10 +17,10 @@ Follow the steps to get my application "STELLAR ARCHIVE" on your machine to util
 * Your device must be pre equipped with MySQL DBMS.
 * You must know the details of localhost,user and passwd of your MySql server.
 
-### Step-1 (Installation)
+## Step-1 (Installation)
 #### **Click on this link 👉 [Installation Package](https://github.com/viharkmanoj/Stellar-Archvie/blob/main/INSTALLATION.zip) to open a page and click "ctrl+shift+s" after landing on the page to download the installation package.**
 
-### Step-2 (Extraction)
+## Step-2 (Extraction)
 
 #### **Extract the INSTALLATION.zip to get the following folders** 👇
 
@@ -50,6 +51,13 @@ Follow the steps to get my application "STELLAR ARCHIVE" on your machine to util
 
 ![Screenshot (70)](https://github.com/viharkmanoj/Stellar-Archvie/assets/124941764/01b8b64d-8e8f-4a20-9b4a-350c1559157a)
 
+## Step-4 (Pyinstaller)
+
+#### **To install pyinstaller, open cmd and type the following and click enter** 👇
+```bash
+  pip install pyinstaller
+```
+## Step-5 (Application Setup)
 
 
 
