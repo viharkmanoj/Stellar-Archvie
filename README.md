@@ -8,7 +8,7 @@
   * [Database Setup](#step-3-Database-setup)
   * [Pyinstaller](#step-4-pyinstaller)
   * [Application Setup](#step-5-application-setup)
-* [Demo](#DEMO)
+* [Demo](#Demo)
 * [Contributing](#Contributing)
 * [License](#License)
 # About
@@ -91,7 +91,7 @@ pyinstaller Main_GUI.py -w --onefile --icon=icon.ico
 
 ![Screenshot (72)](https://github.com/viharkmanoj/Stellar-Archvie/assets/124941764/e18173d1-d04d-42e7-8f88-60d75584052e)
 
-# DEMO
+# Demo
 
 https://github.com/viharkmanoj/Stellar-Archvie/assets/124941764/e56cacce-4be6-458c-bbf9-d603e99ddf55
 
