@@ -3,9 +3,9 @@
 # Getting started with Stellar Archive.
 * [About](#About)
 * [Installation](#Installation-Procedure)
-  * [Package Installation](#Step-1-(Installation))
-  * [Extraction](#Step-2-(Extraction))
-  * [Database Setup](#Step-3-(Database Setup))
+  * [Package Installation](#step-1-installation)
+  * [Extraction](#step-2-extraction)
+  * [Database Setup](#step-3-Database-setup)
 
 # About
 Stellar Archive is a comprehensive database driven application made using python encompassing information about various celestial entities. This application was developed during my senior year as a school project. The repository houses all the collected data, the codes utilized, and includes a guidebook detailing our approach towards the final product. 
