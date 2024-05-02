@@ -93,7 +93,7 @@ pyinstaller Main_GUI.py -w --onefile --icon=icon.ico
 
 # DEMO
 
-![Stellar Archive DEMO (4)](https://github.com/viharkmanoj/Stellar-Archvie/assets/124941764/1d04a24c-2ed8-4955-8123-37f765655a86)
+https://github.com/viharkmanoj/Stellar-Archvie/assets/124941764/76d0f686-bcba-4bf1-ae2a-a63a292227f0
 
 # Contributing
 
