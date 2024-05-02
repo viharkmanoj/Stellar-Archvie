@@ -7,6 +7,8 @@
   * [Extraction](#step-2-extraction)
   * [Database Setup](#step-3-Database-setup)
   * [Pyinstaller](#step-4-pyinstaller)
+  * [Application Setup](#step-5-application-setup)
+* [Demo](#DEMO)
 
 # About
 Stellar Archive is a comprehensive database driven application made using python encompassing information about various celestial entities. This application was developed during my senior year as a school project. The repository houses all the collected data, the codes utilized, and includes a guidebook detailing our approach towards the final product. 
@@ -47,7 +49,7 @@ Follow the steps to get my application "STELLAR ARCHIVE" on your machine to util
 
 ![Screenshot (69)](https://github.com/viharkmanoj/Stellar-Archvie/assets/124941764/e1d38fce-f7b6-47e4-a6bc-90707f9929ae)
 
-#### **The following Dialogue stating "Import Completed" will be presented if the database is installed perfectly** 👇
+#### **The following Dialogue stating "Import Completed" will be presented if the database is installed perfectly.** 👇
 
 ![Screenshot (70)](https://github.com/viharkmanoj/Stellar-Archvie/assets/124941764/01b8b64d-8e8f-4a20-9b4a-350c1559157a)
 
@@ -59,5 +61,41 @@ Follow the steps to get my application "STELLAR ARCHIVE" on your machine to util
 ```
 ## Step-5 (Application Setup)
 
+#### **1) Open "GUI SCRIPT" folder from previously extracted Installation folder.** 
+
+#### **2) Open "Main_GUI" and edit input_host, input_user, and input_password in the lines 9,10 and 11 respectively based on your server configurations and save.**
+
+![Screenshot (71)](https://github.com/viharkmanoj/Stellar-Archvie/assets/124941764/3e8d286c-de11-4e80-a540-1269e4de883c)
 
 
+#### **3) Go back to the folder, right click on the folder and select open in terminal** 👇
+
+![image (1)](https://github.com/viharkmanoj/Stellar-Archvie/assets/124941764/1afc3ed1-a905-4ea0-8f17-7518a15ef3a9)
+
+#### **4) Enter the following in the terminal and click enter👇**
+``` bash
+pyinstaller Main_GUI.py -w --onefile --icon=icon.ico
+```
+![Windows PowerShell 26-11-2023 15_12_27](https://github.com/viharkmanoj/Stellar-Archvie/assets/124941764/c0d2273a-dc3a-46c6-b7eb-22063200a72d)
+
+#### **5) The following dialogue will show up if it gets installed perfectly 👇**
+
+![Windows PowerShell 26-11-2023 15_17_12](https://github.com/viharkmanoj/Stellar-Archvie/assets/124941764/f1d1ea49-a446-4ef9-b276-f448d6941f37)
+
+#### **6) The installed application will be present in the folder named dist and u can move it to any directory in your machine 👇**
+
+![image (2)](https://github.com/viharkmanoj/Stellar-Archvie/assets/124941764/abdaaeba-d886-4077-94ea-05160577ee56)
+
+#### **🎉 YOU HAVE NOW SUCCESSFULLY INSTALLED STELLAR ARCHIVE ON YOUR MACHINE 🙌**
+
+![Screenshot (72)](https://github.com/viharkmanoj/Stellar-Archvie/assets/124941764/e18173d1-d04d-42e7-8f88-60d75584052e)
+
+
+# DEMO
+
+![video](https://github.com/viharkmanoj/Stellar-Archvie/assets/124941764/295db1e2-c369-40e2-8a59-d80be16c0787)
+
+# Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
