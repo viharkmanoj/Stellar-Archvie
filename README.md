@@ -9,15 +9,16 @@
   * [Pyinstaller](#step-4-pyinstaller)
   * [Application Setup](#step-5-application-setup)
 * [Demo](#DEMO)
-
+* [Contributing](#Contributing)
+* [License](#License)
 # About
-Stellar Archive is a comprehensive database driven application made using python encompassing information about various celestial entities. This application was developed during my senior year as a school project. The repository houses all the collected data, the codes utilized, and includes a guidebook detailing our approach towards the final product. 
+Stellar Archive is a comprehensive database-driven application made using Python encompassing information about various celestial entities. This application was developed during my senior year as a school project. The repository houses all the collected data, and the codes utilized, and includes a guidebook detailing our approach toward the final product. 
 
 # Installation Procedure
 Follow the steps to get my application "STELLAR ARCHIVE" on your machine to utilize or test it out.
 
-* Your device must be pre equipped with MySQL DBMS.
-* You must know the details of localhost,user and passwd of your MySql server.
+* Your device must be pre-equipped with MySQL DBMS.
+* You must know the details of your MySql server's local host, user, and password.
 
 ## Step-1 (Installation)
 #### **Click on this link 👉 [Installation Package](https://github.com/viharkmanoj/Stellar-Archvie/blob/main/INSTALLATION.zip) to open a page and click "ctrl+shift+s" after landing on the page to download the installation package.**
@@ -90,12 +91,15 @@ pyinstaller Main_GUI.py -w --onefile --icon=icon.ico
 
 ![Screenshot (72)](https://github.com/viharkmanoj/Stellar-Archvie/assets/124941764/e18173d1-d04d-42e7-8f88-60d75584052e)
 
-
 # DEMO
 
-https://github.com/viharkmanoj/Stellar-Archvie/assets/124941764/76d0f686-bcba-4bf1-ae2a-a63a292227f0
+https://github.com/viharkmanoj/Stellar-Archvie/assets/124941764/e56cacce-4be6-458c-bbf9-d603e99ddf55
 
 # Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
+
+# License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
