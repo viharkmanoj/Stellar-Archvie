@@ -10,6 +10,15 @@ Stellar Archive is a comprehensive database driven application made using python
 # Installation Procedure
 Follow the steps to get my application "STELLAR ARCHIVE" on your machine to utilize or test it out.
 
-### Step-1
+* Your device must be pre equipped with MySQL DBMS.
+* You must know the details of localhost,user and passwd of your MySql server.
 
-Click on this link 👉 [Installation Package](https://github.com/viharkmanoj/Stellar-Archvie/blob/main/INSTALLATION.zip) to open a page and click "ctrl+shift+s" after landing on the page to download the installation package.
+### Step-1
+Click on this link 👉 [Installation Package](#https://github.com/viharkmanoj/Stellar-Archvie/blob/main/INSTALLATION.zip) to open a page and click "ctrl+shift+s" after landing on the page to download the installation package.
+
+### Step-2
+
+Extract the INSTALLATION.zip to get the following folders 👇
+
+![Screenshot (65)](https://github.com/viharkmanoj/Stellar-Archvie/assets/124941764/107ea1d5-0998-4755-a02b-904a935b293a)
+
