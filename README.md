@@ -5,11 +5,11 @@
 * [Installation](#Installation-Procedure)
 
 # About
-Stellar Archive is a comprehensive database driven application made using python encompassing information about various celestial entities. This application was developed during my senior year as a school project. The repository houses all the collected data, the codes utilized, and includes a guidebook detailing our approach towards the final product. 
+Stellar Archive is a comprehensive database-driven application made using Python encompassing information about various celestial entities. This application was developed during my senior year as a school project. The repository houses all the collected data, and the codes utilized, and includes a guidebook detailing our approach toward the final product. 
 
 # Installation Procedure
 Follow the steps to get my application "STELLAR ARCHIVE" on your machine to utilize or test it out.
 
 ### Step-1
 
-[Installation Package](#https://github.com/viharkmanoj/Stellar-Archvie/blob/main/INSTALLATION.zip)
+[InstallationPackage](#https://github.com/viharkmanoj/Stellar-Archvie/blob/main/INSTALLATION.zip)
