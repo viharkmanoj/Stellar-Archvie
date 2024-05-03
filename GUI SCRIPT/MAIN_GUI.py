@@ -12,6 +12,7 @@ input_password="qwerty0987"
 
 mainwindow = tk.Tk()
 mainwindow.title("STELLAR ARCHIVE")
+
 mainwindow.minsize(height=550, width=1000)
 mainwindow.configure(bg="black")
 
