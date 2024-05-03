@@ -4,8 +4,6 @@ import tkinter as tk
 from tkinter import ttk
 import mysql.connector
 
-#USED DATA
-
 input_host="localhost"
 input_user="root"
 input_password="qwerty0987"
@@ -133,7 +131,7 @@ def home():
                     table_name = "constellations"
                     TABLE_DESC = tk.Label(mainwindow, text="LIST OF CONSTELLATIONS", fg="white", 
                     bg="black", font=("Bahnschrift Condensed", 20))
-                    TABLE_DESC.pack()
+                    TABLE_DESC.pack(expand=True, fill="both")
                     TABLE_DESC.place(relx=0.5, rely=0.5, anchor="center")
                     TABLE_DESC.place(x=0, y=-225)
                     tree = ttk.Treeview(mainwindow, columns=("CONSTELLATION", "FIRST APPEARANCE",
@@ -153,9 +151,8 @@ def home():
                     tree.column("#6", width=118)
                     tree.column("#7", width=118)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=40,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -194,15 +191,14 @@ def home():
                     tree.column("#7", width=118)
                     tree.column("#8", width=170)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=25,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
                 else:
                     primary()
-                    WARNING3 = tk.Label(mainwindow, text="⚠️ PLEASE LEAVE THE TYPE EMPTY FOR PEOPLE IN SPACE RIGHT NOW", fg="white",
+                    WARNING3 = tk.Label(mainwindow, text="⚠️ PLEASE LEAVE THE TYPE EMPTY FOR \"PEOPLE IN SPACE RIGHT NOW\"", fg="white",
                     bg="black", font=("Bahnschrift Condensed", 12))
                     WARNING3.pack()
                     WARNING3.place(relx=0.5, rely=0.5, anchor="center")
@@ -236,9 +232,8 @@ def home():
                     tree.column("#7", width=118)
                     tree.column("#8", width=118)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=25,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -271,9 +266,8 @@ def home():
                     tree.column("#4", width=135)
                     tree.column("#5", width=185)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=20,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -297,9 +291,8 @@ def home():
                     tree.column("#4", width=135)
                     tree.column("#5", width=185)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=20,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -336,9 +329,8 @@ def home():
                     tree.column("#1", width=275) 
                     tree.column("#2", width=275)
                     tree.column("#3", width=275)
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=100,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -367,9 +359,8 @@ def home():
                     tree.column("#6", width=118)
                     tree.column("#7", width=120)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=70,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
                 
@@ -397,9 +388,8 @@ def home():
                     tree.column("#6", width=100)
                     tree.column("#7", width=100)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=70,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -425,9 +415,8 @@ def home():
                     tree.column("#5", width=120)
                     tree.column("#6", width=200)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=70,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -455,9 +444,8 @@ def home():
                     tree.column("#6", width=160)
                     tree.column("#7", width=250)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=100,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -493,9 +481,8 @@ def home():
                     tree.column("#1", width=300) 
                     tree.column("#2", width=300)
                     tree.column("#3", width=300)
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=50,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()   
 
@@ -525,9 +512,8 @@ def home():
                     tree.column("#6", width=100)
                     tree.column("#7", width=100)
                     tree.column("#8", width=130)
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=30,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()   
 
@@ -551,9 +537,8 @@ def home():
                     tree.column("#3", width=180)
                     tree.column("#4", width=100)
                     tree.column("#5", width=120)
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=140,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()  
 
@@ -591,9 +576,8 @@ def home():
                     tree.column("#2", width=225)
                     tree.column("#3", width=225)
                     tree.column("#4", width=225)
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=50,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
     
@@ -613,9 +597,8 @@ def home():
                     tree.column("#1", width=275) 
                     tree.column("#2", width=275)
                     tree.column("#3", width=275)
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=100,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -634,9 +617,8 @@ def home():
                     tree.column("#1", width=275) 
                     tree.column("#2", width=275)
                     tree.column("#3", width=275)
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=100,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -676,9 +658,8 @@ E 20TH CENTURY'""", fg="white", bg="black", font=("Bahnschrift Condensed", 20))
                     tree.column("#3", width=115)
                     tree.column("#4", width=150)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=60,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -700,9 +681,8 @@ E 20TH CENTURY'""", fg="white", bg="black", font=("Bahnschrift Condensed", 20))
                     tree.column("#3", width=115)
                     tree.column("#4", width=170)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=55,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -724,9 +704,8 @@ E 20TH CENTURY'""", fg="white", bg="black", font=("Bahnschrift Condensed", 20))
                     tree.column("#3", width=115)
                     tree.column("#4", width=170)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=55,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -748,9 +727,8 @@ E 20TH CENTURY'""", fg="white", bg="black", font=("Bahnschrift Condensed", 20))
                     tree.column("#3", width=115)
                     tree.column("#4", width=170)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=55,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -772,9 +750,8 @@ E 20TH CENTURY'""", fg="white", bg="black", font=("Bahnschrift Condensed", 20))
                     tree.column("#3", width=115)
                     tree.column("#4", width=170)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=55,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -796,9 +773,8 @@ E 20TH CENTURY'""", fg="white", bg="black", font=("Bahnschrift Condensed", 20))
                     tree.column("#3", width=115)
                     tree.column("#4", width=170)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=55,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -820,9 +796,8 @@ E 20TH CENTURY'""", fg="white", bg="black", font=("Bahnschrift Condensed", 20))
                     tree.column("#3", width=145)
                     tree.column("#4", width=170)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=35,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -844,9 +819,8 @@ E 20TH CENTURY'""", fg="white", bg="black", font=("Bahnschrift Condensed", 20))
                     tree.column("#3", width=145)
                     tree.column("#4", width=170)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=35,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -868,9 +842,8 @@ E 20TH CENTURY'""", fg="white", bg="black", font=("Bahnschrift Condensed", 20))
                     tree.column("#3", width=145)
                     tree.column("#4", width=170)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=35,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -915,9 +888,8 @@ E 20TH CENTURY'""", fg="white", bg="black", font=("Bahnschrift Condensed", 20))
                     tree.column("#6", width=75)
                     tree.column("#7", width=130)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=50,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -940,9 +912,8 @@ E 20TH CENTURY'""", fg="white", bg="black", font=("Bahnschrift Condensed", 20))
                     tree.column("#3", width=100)
                     tree.column("#4", width=180)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=160,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
             
@@ -968,9 +939,8 @@ E 20TH CENTURY'""", fg="white", bg="black", font=("Bahnschrift Condensed", 20))
                     tree.column("#5", width=110)
                     tree.column("#6", width=110)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=25,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
             
@@ -987,9 +957,8 @@ E 20TH CENTURY'""", fg="white", bg="black", font=("Bahnschrift Condensed", 20))
                     tree.column("#1", width=300) 
                     tree.column("#2", width=300)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=200,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -1016,7 +985,7 @@ E 20TH CENTURY'""", fg="white", bg="black", font=("Bahnschrift Condensed", 20))
                      fg="white", bg="black", font=("Bahnschrift Condensed", 20))
                     TABLE_DESC.pack()
                     TABLE_DESC.place(relx=0.5, rely=0.5, anchor="center")
-                    TABLE_DESC.place(x=0, y=-180)
+                    TABLE_DESC.place(x=0, y=-220)
                     KEY = tk.Label(mainwindow, text="""ESC-V = ESCAPE VELOCITY, ROT-T = ROTATION PERIOD, D-SUN = DISTANCE FROM THE SUN
 ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                      fg="white", bg="black", font=("Bahnschrift Condensed", 20))
@@ -1061,10 +1030,9 @@ ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                     tree.column("#16", width=55)
                     tree.column("#17", width=40)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=4,y=150)
-                    tree.config(height=10)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
+                    tree.config(height=20)
                     fetch_and_display_table()
 
                 elif selected_type == "MEAN TEMPERATURE":
@@ -1073,17 +1041,16 @@ ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                      fg="white", bg="black", font=("Bahnschrift Condensed", 20))
                     TABLE_DESC.pack()
                     TABLE_DESC.place(relx=0.5, rely=0.5, anchor="center")
-                    TABLE_DESC.place(x=0, y=-180)
+                    TABLE_DESC.place(x=0, y=-220)
                     tree = ttk.Treeview(mainwindow, columns=("PLANET", "TEMPERATURE"))
                     tree.heading("#1", text="PLANET")
                     tree.heading("#2", text="TEMPERATURE")
                     tree.column("#1", width=100) 
                     tree.column("#2", width=100)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=400,y=170)
-                    tree.config(height=10)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
+                    tree.config(height=20)
                     fetch_and_display_table()
 
                 elif selected_type == "COMPOSITION OF PLANETARY ELEMENTS":
@@ -1092,7 +1059,7 @@ ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                      fg="white", bg="black", font=("Bahnschrift Condensed", 20))
                     TABLE_DESC.pack()
                     TABLE_DESC.place(relx=0.5, rely=0.5, anchor="center")
-                    TABLE_DESC.place(x=0, y=-185)
+                    TABLE_DESC.place(x=0, y=-220)
                     tree = ttk.Treeview(mainwindow, columns=("PLANET", "MASS KG","CarbonDioxide",
                     "Nitrogen","Oxygen","Argon","Methane","Sodium","Hydrogen","Helium","Others"))
                     tree.heading("#1", text="PLANET")
@@ -1118,10 +1085,9 @@ ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                     tree.column("#10", width=90)
                     tree.column("#11", width=90)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=15,y=130)
-                    tree.config(height=13)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
+                    tree.config(height=20)
                     fetch_and_display_table()
 
                 elif selected_type == "PLANETARY ATMOSPHERE & MAGNETIC FIELDS":
@@ -1130,7 +1096,7 @@ ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                      fg="white", bg="black", font=("Bahnschrift Condensed", 20))
                     TABLE_DESC.pack()
                     TABLE_DESC.place(relx=0.5, rely=0.5, anchor="center")
-                    TABLE_DESC.place(x=0, y=-185)
+                    TABLE_DESC.place(x=0, y=-220)
                     tree = ttk.Treeview(mainwindow, columns=("PLANET", "GRAVITY PULL","ESC VELOCITY",
                     "DISTANCE","ALBEDO",
                     "TEMP_IN_°F","ATM_PRESSURE","ATM_COMP","ROTATION","MAG_FIELD"))
@@ -1155,10 +1121,9 @@ ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                     tree.column("#9", width=100)
                     tree.column("#10", width=90)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=12,y=130)
-                    tree.config(height=13)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
+                    tree.config(height=20)
                     fetch_and_display_table()
 
                 elif selected_type == "":
@@ -1224,9 +1189,8 @@ ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                     tree.column("#9", width=80)
                     tree.column("#10", width=95)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=15,y=130)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=13)
                     fetch_and_display_table()
 
@@ -1261,9 +1225,8 @@ ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                     tree.column("#9", width=110)
                     tree.column("#10", width=95)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=8,y=130)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=13)
                     fetch_and_display_table()
 
@@ -1298,9 +1261,8 @@ ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                     tree.column("#9", width=110)
                     tree.column("#10", width=120)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=25,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -1335,9 +1297,8 @@ ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                     tree.column("#9", width=110)
                     tree.column("#10", width=110)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=25,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -1372,9 +1333,8 @@ ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                     tree.column("#9", width=110)
                     tree.column("#10", width=133)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=22,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -1408,9 +1368,8 @@ ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                     tree.column("#9", width=110)
                     tree.column("#10", width=133)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=22,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -1445,9 +1404,8 @@ ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                     tree.column("#9", width=90)
                     tree.column("#10", width=133)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=25,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -1498,9 +1456,8 @@ ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                     tree.column("#9", width=75)
                     tree.column("#10", width=135)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=3,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()    
 
@@ -1522,9 +1479,8 @@ ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                     tree.column("#3", width=200)
                     tree.column("#4", width=200)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=70,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()   
 
@@ -1558,9 +1514,8 @@ ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                     tree.column("#9", width=110)
                     tree.column("#10", width=80)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=12,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -1594,9 +1549,8 @@ ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                     tree.column("#9", width=83)
                     tree.column("#10", width=75)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=1,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -1632,9 +1586,8 @@ ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                     tree.column("#2", width=220)
                     tree.column("#3", width=210)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=170,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()   
                 
@@ -1656,9 +1609,8 @@ ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                     tree.column("#3", width=285)
                     tree.column("#4", width=240)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=0,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()  
 
@@ -1705,9 +1657,8 @@ ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                     tree.column("#7", width=130)
                     tree.column("#8", width=80)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=26,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -1737,9 +1688,8 @@ ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                     tree.column("#7", width=130)
                     tree.column("#8", width=80)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=26,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -1761,9 +1711,8 @@ ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                     tree.column("#3", width=200)
                     tree.column("#4", width=220)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=70,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
@@ -1789,9 +1738,8 @@ ORB-T = ORBITAL PERIOD, P = PRESSURE, B = MAGNETIC FIELD""",
                     tree.column("#5", width=120)
                     tree.column("#6", width=130)
                     tree["show"] = "headings"
-                    tree.pack(anchor="center")
-                    tree.pack(padx=0, pady=5)
-                    tree.place(x=70,y=100)
+                    tree.place(relx=0.5, rely=0.5, anchor="center")
+                    tree.place(x=0, y=20)
                     tree.config(height=20)
                     fetch_and_display_table()
 
