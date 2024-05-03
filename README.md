@@ -21,6 +21,7 @@ Follow the steps to get my application "STELLAR ARCHIVE" on your machine to util
 * You must know the details of your MySql server's local host, user, and password.
 
 ## Step-1 (Installation)
+
 #### **Click on this link 👉 [Installation Package](https://github.com/viharkmanoj/Stellar-Archvie/blob/main/INSTALLATION.zip) to open a page and click "ctrl+shift+s" after landing on the page to download the installation package.**
 
 ## Step-2 (Extraction)
@@ -30,6 +31,10 @@ Follow the steps to get my application "STELLAR ARCHIVE" on your machine to util
 ![Screenshot (65)](https://github.com/viharkmanoj/Stellar-Archvie/assets/124941764/107ea1d5-0998-4755-a02b-904a935b293a)
 
 ## Step-3 (Database Setup)
+
+#### **To set up the database u must have Mysql DBMS installed on your pc. If its not then please [click this](https://www.javatpoint.com/how-to-install-mysql#:~:text=Step%201%3A%20Go%20to%20the,community%20server%2C%20which%20you%20want.) for a guide on it**
+
+
 #### **1) Open the following application on your desktop.** 👇
 
 ![Screenshot (66)](https://github.com/viharkmanoj/Stellar-Archvie/assets/124941764/6c0c8757-2624-4708-959a-246f459c8a37)
