@@ -28,7 +28,7 @@ style.configure("TScrollbar",
                 background="snow",
                 troughcolor="gray6"  
                 )
-
+hfhfh
 #EMPTY STRINGS USED TO FIX BUGS OR GIVE WARNINGS TO THE USER BY GUIDING
 KEY = ""
 WARNING = ""
